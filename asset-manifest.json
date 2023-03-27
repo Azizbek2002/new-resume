@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Azizbek2002/resume/static/css/main.854b5811.css",
+    "main.js": "/Azizbek2002/resume/static/js/main.e6e26396.js",
+    "static/media/responsive.jpg": "/Azizbek2002/resume/static/media/responsive.f13919d49903748e75f2.jpg",
+    "static/media/project2.jpg": "/Azizbek2002/resume/static/media/project2.075462962d86950f0713.jpg",
+    "static/media/project5.jpg": "/Azizbek2002/resume/static/media/project5.63d82a2fd52874c7d1d1.jpg",
+    "static/media/creative.jpg": "/Azizbek2002/resume/static/media/creative.192c4084e37e26c241df.jpg",
+    "static/media/project1.jpg": "/Azizbek2002/resume/static/media/project1.9af6f5837294c400d153.jpg",
+    "static/media/coding.jpeg": "/Azizbek2002/resume/static/media/coding.2b61283f383459c24c2a.jpeg",
+    "static/media/newPerson.png": "/Azizbek2002/resume/static/media/newPerson.3f1605fdab0e30b8c8d6.png",
+    "static/media/project4.jpg": "/Azizbek2002/resume/static/media/project4.6ac5b4002dddc6480ec7.jpg",
+    "static/media/logoNew.png": "/Azizbek2002/resume/static/media/logoNew.f5532d730342e0d2434d.png",
+    "static/media/whatsapp.png": "/Azizbek2002/resume/static/media/whatsapp.e5aa7c73bca0d492645c.png",
+    "static/media/services1.svg": "/Azizbek2002/resume/static/media/services1.9b52ee47ddd68735f200aa27f9044104.svg",
+    "static/media/services2.svg": "/Azizbek2002/resume/static/media/services2.d78c8a86fed8ce70524048f723ea7ed7.svg",
+    "static/media/services3.svg": "/Azizbek2002/resume/static/media/services3.51e67497dd41dab7358fef3b13459bf9.svg",
+    "static/media/Telegram_logo.svg": "/Azizbek2002/resume/static/media/Telegram_logo.d524ce60a5271a2d84bbeb6759286b02.svg",
+    "index.html": "/Azizbek2002/resume/index.html",
+    "static/media/menu.svg": "/Azizbek2002/resume/static/media/menu.fcd85028b4e624a4773c108ff4e5b47f.svg",
+    "main.854b5811.css.map": "/Azizbek2002/resume/static/css/main.854b5811.css.map",
+    "main.e6e26396.js.map": "/Azizbek2002/resume/static/js/main.e6e26396.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.854b5811.css",
+    "static/js/main.e6e26396.js"
+  ]
+}
