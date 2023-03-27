@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* background: #000; */
+}
+
+.Services{
+  background: rgb(254,254,254);
+background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
+padding-top: 20px;
+}
+.title h5 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+/* --------------- */
+.title h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #25202f;
+  margin: 20px 0;
+}
+.works {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 400px;
+}
+.work_icon {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+.work_icon img {
+  width: 62px;
+  height: 60px;
+  display: inline-block;
+}
+.work_icon h3 {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #25202f;
+}
+.work_title{
+  padding: 0 40px 0 0;
+}
+.work_title img {
+ width: 90%;
+ height: 200px;
+ border-radius: 10px;
+}

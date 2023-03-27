@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.About_section {
+  width: 100%;
+  height: 900px;
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(30, 94, 223, 0.7904411764705882) 51%,
+    rgba(255, 255, 255, 0.8492647058823529) 100%
+  );
+  padding-bottom: 100px;
+}
+.title h5 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4681f4;
+}
+
+.title h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 20px 0;
+  color: #25202f;
+}
+
+.projects_banner {
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 300px;
+  height: auto;
+  box-shadow: 30px 6px 43px #333;
+  border-radius: 3px;
+  z-index: 9999;
+}
+.img2 {
+  position: absolute;
+  top: -20px;
+  left: 350px;
+  width: 300px;
+  height: auto;
+  box-shadow: 8px 6px 43px #333;
+  border-radius: 3px;
+  z-index: 0000;
+}
+
+.img3 {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  width: 300px;
+  height: auto;
+  box-shadow: 30px 6px 43px #333;
+  border-radius: 3px;
+  z-index: 9999;
+}
+.img4 {
+  position: absolute;
+  top: -20px;
+  right: 50px;
+  width: 300px;
+  height: auto;
+  box-shadow: 8px 6px 43px #333;
+  border-radius: 3px;
+  z-index: 0000;
+}
