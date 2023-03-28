@@ -2,6 +2,8 @@ import styles from "./Home.module.css";
 import logo from "./assets/images/logoNew.png";
 import menu from "./assets/images/menu.svg";
 import person from "./assets/images/newPerson.png";
+import { Link } from "react-router-dom";
+import Services from "./Services";
 import './App.css';
 
 
@@ -13,16 +15,16 @@ const Home = () => {
           <img src={logo} className={styles.logo} alt="logo" />
           <ul>
             <li>
-              <a href="#">About</a>
+              <Link to="/" >Home</Link>
             </li>
             <li>
-              <a href="#">Services</a>
+            <Link to="/services">Services</Link>
             </li>
             <li>
-              <a href="#">Works</a>
+            <Link to="/projects">Works</Link>
             </li>
             <li>
-              <a href="#">Blog</a>
+            <Link to="/contact">Contact</Link>
             </li>
           </ul>
           <div className={styles.menu}>

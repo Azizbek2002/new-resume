@@ -38,6 +38,7 @@ a {
   background-color: #333;
   cursor: pointer;
   background: transparent;
+  display: none;
 }
 
 .menu img {
