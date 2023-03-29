@@ -4,11 +4,14 @@ import menu from "./assets/images/menu.svg";
 import person from "./assets/images/newPerson.png";
 import { Link } from "react-router-dom";
 import Services from "./Services";
+import Contact from "./Contact";
+import Projects from "./Projects"
 import './App.css';
 
 
 const Home = () => {
   return (
+    <>
     <div className={styles.header}>
       <div className={styles.container}>
         <div className={styles.navbar}>
@@ -48,6 +51,10 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Services/>
+    <Projects/>
+    <Contact/>
+    </>
   );
 };
 
