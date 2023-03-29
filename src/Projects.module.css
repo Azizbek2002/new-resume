@@ -13,7 +13,7 @@
     rgba(30, 94, 223, 0.7904411764705882) 51%,
     rgba(255, 255, 255, 0.8492647058823529) 100%
   );
-  padding-bottom: 100px;
+  padding: 100px;
 }
 .title h5 {
   font-family: "Red Hat Display";

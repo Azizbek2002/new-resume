@@ -9,7 +9,7 @@
 .Services{
   background: rgb(254,254,254);
 background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
-padding-top: 20px;
+padding-top: 100px;
 }
 .title h5 {
   font-family: "Red Hat Display";
