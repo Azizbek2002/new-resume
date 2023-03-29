@@ -72,16 +72,17 @@
   background: #1e5edf;
 }
  .lets_friends{
+  padding: 20px 0;
   text-align: center;
   color: #fff;
-  margin-top: 80px;
+  background-color: #1e5edf;
  }
 
   
  .lets_friends h1{
   font-size: 30px;
   color: #fff;
-  margin: 20px 0;
+  margin-bottom: 20px;
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
