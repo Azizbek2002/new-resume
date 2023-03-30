@@ -3,6 +3,7 @@ import person from "./assets/images/newPerson.png";
 import Services from "./Services";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Skills from "./Skills";
 import "./App.css";
 import logo from "./assets/images/logoNew.png";
 import menu from "./assets/images/menu.svg";
@@ -47,6 +48,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Skills/>
       <Services />
       <Projects />
       <Contact />
