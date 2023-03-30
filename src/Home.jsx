@@ -4,12 +4,36 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import "./App.css";
+import logo from "./assets/images/logoNew.png";
+import menu from "./assets/images/menu.svg";
 
 const Home = () => {
   return (
     <>
       <div className={styles.header}>
         <div className={styles.container}>
+          <div className={styles.navbar}>
+            <img src={logo} className={styles.logo} alt="logo" />
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Works</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+            <div className={styles.menu}>
+              <button className={styles.menuBtn}>
+                <img src={menu} alt="menu" />
+              </button>
+            </div>
+          </div>
           <div className={styles.banner}>
             <div className={styles.left_content}>
               <p>Hello,</p>
