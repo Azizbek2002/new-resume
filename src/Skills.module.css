@@ -1,3 +1,37 @@
-.Skills_section{
-    
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
+
+
+.Skills_section {
+    padding: 50px 0;
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 300px);
+}
+
+
+.skill{
+    text-align: center;
+    margin: 20px 0;
+}
+.skill img{
+width: 150px;
+height: auto;
+}
+.skill_title{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202f;
+    margin: 20px 0;
 }
