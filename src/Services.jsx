@@ -1,7 +1,7 @@
 import style from "./Services.module.css";
-import icon1 from "./assets/images/services1.svg";
-import icon2 from "./assets/images/services2.svg";
-import icon3 from "./assets/images/services3.svg";
+import icon1 from "./assets/images/coding.png";
+import icon2 from "./assets/images/services22.png";
+import icon3 from "./assets/images/device.png";
 import coding from "./assets/images/coding.jpeg";
 import creative from "./assets/images/creative.jpg";
 import responsive from "./assets/images/responsive.jpg";
@@ -43,7 +43,7 @@ const Services = () => {
             <div className={style.work_icon}>
               <img src={icon3} alt="icon" />
 
-              <h3>Create adaptive and responsive web sites</h3>
+              <h3>Create adaptive and <br /> responsive web sites</h3>
             </div>
             <div className={style.work_title}>
               <img src={responsive} alt="</>" />

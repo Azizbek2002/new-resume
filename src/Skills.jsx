@@ -1,6 +1,6 @@
 import styles from "./Skills.module.css";
-import html from "./assets/images/html.png";
-import css3 from "./assets/images/css3.png";
+import html from "./assets/images/html1.png";
+import css3 from "./assets/images/css31.png";
 import js from "./assets/images/js.png";
 import reactIcon from "./assets/images/react.png";
 import redux from "./assets/images/redux.png";
@@ -10,6 +10,7 @@ const Skills = () => {
   return (
     <div className={styles.Skills_section}>
       <div className={styles.container}>
+        <h1 className={styles.stitle}>My skills</h1>
         <div className={styles.skills}>
           <div className={styles.skill}>
             <h1 className={styles.skill_title}>HTML</h1>

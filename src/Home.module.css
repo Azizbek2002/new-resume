@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
 
-
+.header{
+  background: rgb(254,254,254);
+  background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
+  padding-top: 20px;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -13,7 +17,7 @@ a {
   padding: 20px 0;
   display: grid;
   grid-template-columns: 100px auto 100px;
-  margin: 20px 0 30px 0;
+  margin:0 0 30px 0;
 }
 
 .navbar ul li {
@@ -98,5 +102,4 @@ a {
   margin-top: -120px;
   width: 540px;
   height: auto;
-  border-top-right-radius: 200px;
 }
