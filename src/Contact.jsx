@@ -8,7 +8,7 @@ import github from "./assets/images/github.png";
 
 const Contact = () => {
   return (
-    <div className={style.Contact_section}>
+    <div className={style.Contact_section} id="contact">
       <div className={style.container}>
         <div className={style.title}>
           <h5>Contact me</h5>

@@ -7,8 +7,20 @@ import Skills from "./Skills";
 import "./App.css";
 import logo from "./assets/images/logoNew.png";
 import menu from "./assets/images/menu.svg";
+import { useRef } from "react";
 
 const Home = () => {
+
+  const scrollSec = useRef(null)
+
+  console.log(scrollSec)
+  function scrollChange(){
+  console.log('worked')  
+   scrollSec.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' })
+  }
+  // scrollChange()
+
+
   return (
     <>
       <div className={styles.header}>
@@ -18,6 +30,9 @@ const Home = () => {
             <ul>
               <li>
                 <button className={styles.navBtn}>Home</button>
+              </li>
+              <li>
+                <button className={styles.navBtn} onClick={scrollChange}>Skills</button>
               </li>
               <li>
                 <button className={styles.navBtn}>Services</button>
@@ -40,7 +55,7 @@ const Home = () => {
               <p>Hello,</p>
               <h1>I am Azizbek</h1>
               <p>a Frontend developer</p>
-              <button className={styles.btn_letst}>Let’s Talk</button>
+              <button className={styles.btn_letst} ref={scrollSec}>Let’s Talk</button>
             </div>
             <div className={styles.right_content}>
               <img src={person} alt="person" className={styles.person} />
@@ -48,7 +63,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Skills/>
+      <Skills />
       <Services />
       <Projects />
       <Contact />
