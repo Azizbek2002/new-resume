@@ -32,6 +32,22 @@ a {
   line-height: 26px;
   color: #333;
 }
+.navBtn{
+  background: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s ease;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.navBtn:hover{
+  color: #0a11ef;
+}
 .logo{
   width: 50px;
   height: auto;

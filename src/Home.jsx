@@ -17,16 +17,16 @@ const Home = () => {
             <img src={logo} className={styles.logo} alt="logo" />
             <ul>
               <li>
-                <a href="#">Home</a>
+                <button className={styles.navBtn}>Home</button>
               </li>
               <li>
-                <a href="#">Services</a>
+                <button className={styles.navBtn}>Services</button>
               </li>
               <li>
-                <a href="#">Works</a>
+                <button className={styles.navBtn}>Works</button>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <button className={styles.navBtn}>Contact</button>
               </li>
             </ul>
             <div className={styles.menu}>
