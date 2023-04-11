@@ -7,20 +7,17 @@ import Skills from "./Skills";
 import "./App.css";
 import logo from "./assets/images/logoNew.png";
 import menu from "./assets/images/menu.svg";
-import { useRef } from "react";
+import { useRef,useEffect } from "react";
 
 const Home = () => {
+  const myref = useRef(null)
 
-  const scrollSec = useRef(null)
-
-  console.log(scrollSec)
-  function scrollChange(){
-  console.log('worked')  
-   scrollSec.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' })
+  
+  const myFn = () => {
+    return myref ? myref.current.scrollIntoView({block: "center", behavior: "smooth"}): null
   }
-  // scrollChange()
 
-
+  
   return (
     <>
       <div className={styles.header}>
@@ -29,10 +26,10 @@ const Home = () => {
             <img src={logo} className={styles.logo} alt="logo" />
             <ul>
               <li>
-                <button className={styles.navBtn}>Home</button>
+                <button className={styles.navBtn} >Home</button>
               </li>
               <li>
-                <button className={styles.navBtn} onClick={scrollChange}>Skills</button>
+                <button className={styles.navBtn} onClick={myFn}>Skills</button>
               </li>
               <li>
                 <button className={styles.navBtn}>Services</button>
@@ -55,7 +52,7 @@ const Home = () => {
               <p>Hello,</p>
               <h1>I am Azizbek</h1>
               <p>a Frontend developer</p>
-              <button className={styles.btn_letst} ref={scrollSec}>Let’s Talk</button>
+              <button className={styles.btn_letst} >Let’s Talk</button>
             </div>
             <div className={styles.right_content}>
               <img src={person} alt="person" className={styles.person} />
@@ -63,7 +60,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Skills />
+      <Skills  func={() => myref}/>
       <Services />
       <Projects />
       <Contact />
