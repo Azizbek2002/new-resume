@@ -9,7 +9,7 @@ import "./App.css";
 
 const Services = () => {
   return (
-    <div className={style.Services}>
+    <div className={style.Services} id="services">
       <div className={style.container}>
         <div className={style.title}>
           <h5>Services</h5>

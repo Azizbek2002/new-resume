@@ -7,15 +7,8 @@ import Skills from "./Skills";
 import "./App.css";
 import logo from "./assets/images/logoNew.png";
 import menu from "./assets/images/menu.svg";
-import { useRef,useEffect } from "react";
 
 const Home = () => {
-  const myref = useRef(null)
-
-  
-  const myFn = () => {
-    return myref ? myref.current.scrollIntoView({block: "center", behavior: "smooth"}): null
-  }
 
   
   return (
@@ -26,19 +19,19 @@ const Home = () => {
             <img src={logo} className={styles.logo} alt="logo" />
             <ul>
               <li>
-                <button className={styles.navBtn} >Home</button>
+                <a href="#home"className={styles.navBtn} >Home</a>
               </li>
               <li>
-                <button className={styles.navBtn} onClick={myFn}>Skills</button>
+                <a href="#skills"className={styles.navBtn}>Skills</a>
               </li>
               <li>
-                <button className={styles.navBtn}>Services</button>
+                <a href="#services"className={styles.navBtn}>Services</a>
               </li>
               <li>
-                <button className={styles.navBtn}>Works</button>
+                <a href="#projects"className={styles.navBtn}>Projects</a>
               </li>
               <li>
-                <button className={styles.navBtn}>Contact</button>
+                <a href="#contact"className={styles.navBtn}>Contact</a>
               </li>
             </ul>
             <div className={styles.menu}>
@@ -60,7 +53,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Skills  func={() => myref}/>
+      <Skills  />
       <Services />
       <Projects />
       <Contact />

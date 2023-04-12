@@ -8,7 +8,7 @@ import './App.css';
 
 const About = () => {
   return (
-    <div className={style.About_section}>
+    <div className={style.About_section} id="projects">
       <div className={style.container}>
         <div className={style.title}>
           <h5>Projects</h5>

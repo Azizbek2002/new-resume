@@ -5,15 +5,12 @@ import js from "./assets/images/js.png";
 import reactIcon from "./assets/images/react.png";
 import redux from "./assets/images/redux.png";
 import github from "./assets/images/github.png";
-import { createRef, useRef } from "react";
 
-const Skills = (props) => {
-  // console.log(props.func())
-  let myNewRef = props.func()
-   myNewRef = createRef()
-   console.log(myNewRef)
+
+const Skills = () => {
+
   return (
-    <div className={styles.Skills_section} ref={myNewRef}>
+    <div className={styles.Skills_section} id="skills">
       <div className={styles.container}>
         <h1 className={styles.stitle}>My Skills</h1>
         <div className={styles.skills}>
