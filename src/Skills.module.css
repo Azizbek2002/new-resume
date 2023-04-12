@@ -43,3 +43,29 @@ height: auto;
     color: #3f3f3f;
     margin: 20px 0;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows:auto;
+}
+.stitle{
+  font-size: 24px;
+}
+
+.skill_title{
+  font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 28px;
+    color: #3f3f3f;
+    margin: 10px 0;
+}
+
+
+}

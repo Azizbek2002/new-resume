@@ -13,7 +13,6 @@
     rgba(30, 94, 223, 0.7904411764705882) 51%,
     rgba(255, 255, 255, 0.8492647058823529) 100%
   );
-
 }
 .title h5 {
   font-family: "Red Hat Display";
@@ -78,4 +77,62 @@
   box-shadow: 8px 6px 43px #333;
   border-radius: 3px;
   z-index: 0000;
+}
+
+@media only screen and (max-width: 768px) {
+  
+.About_section {
+  height: 900px;
+}
+
+.title h1{
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0 40px 0;
+  color: #25202f;
+}
+  .img1 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 150px;
+    height: auto;
+    box-shadow: 30px 6px 43px #333;
+    border-radius: 3px;
+    z-index: 9999;
+  }
+  .img2{
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    width: 180px;
+    height: auto;
+    box-shadow: 8px 6px 43px #333;
+    border-radius: 3px;
+    z-index: 0000;
+  }
+  .img3 {
+    position: absolute;
+    top: 470px;
+    right: 130px;
+    width: 150px;
+    height: auto;
+    box-shadow: 30px 6px 43px #333;
+    border-radius: 3px;
+    z-index: 9999;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 420px;
+    right: 0;
+    width: 180px;
+    height: auto;
+    box-shadow: 8px 6px 43px #333;
+    border-radius: 3px;
+    z-index: 0000;
+  }
 }

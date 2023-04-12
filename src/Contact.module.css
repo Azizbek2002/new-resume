@@ -100,3 +100,71 @@
   width: 40px;
   height: auto;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .Contact_section{
+    padding: 20px 0;
+}
+
+  .title h5 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #4681f4;
+}
+
+  .title p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #21232d;
+    width: 100%;
+}
+.container form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  background: transparent;
+  display: block;
+  padding: 6px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  outline: none;
+}
+
+.submit {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 7px 15px;
+}
+
+.lets_friends h1 {
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 16px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+}
+.social_medias a {
+  margin: 0px 5px;
+  text-decoration: none;
+}
+.social_medias a img {
+  width: 20px;
+  height: auto;
+}
+
+}
+   

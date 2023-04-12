@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
 
-.header{
-  background: rgb(254,254,254);
-  background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
+.header {
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(70, 129, 244, 1) 100%
+  );
   padding-top: 20px;
 }
 .container {
@@ -17,7 +21,7 @@ a {
   padding: 20px 0;
   display: grid;
   grid-template-columns: 100px auto 100px;
-  margin:0 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
 .navbar ul li {
@@ -27,11 +31,11 @@ a {
 .navbar ul li a {
   font-family: "Red Hat Display";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
   line-height: 26px;
 }
-.navBtn{
+.navBtn {
   background: transparent;
   cursor: pointer;
   color: #ffffff;
@@ -44,10 +48,10 @@ a {
   line-height: 32px;
 }
 
-.navBtn:hover{
+.navBtn:hover {
   color: #0a11ef;
 }
-.logo{
+.logo {
   width: 50px;
   height: auto;
   margin-top: -10px;
@@ -112,52 +116,53 @@ a {
   background-color: #1e5edf;
 }
 
-
 .right_content .person {
   margin-top: -120px;
   width: 540px;
   height: auto;
 }
 
-@media only screen and  (max-width:768px) {
-
-
+@media only screen and (max-width: 768px) {
   .navbar {
-  width: 100%;
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns:100%;
-  margin:0 0 30px 0;
+    width: 100%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 100%;
+    margin:0;
+  }
+
+  .navbar ul li {
+    display: none;
+    /* display: inline-block; */
+    margin-right: 20px;
+  }
+
+  .menu .menuBtn {
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    display: block;
+  }
+
+  .banner {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 300px;
+    padding-bottom: 100px;
+  }
+  .left_content p{
+    margin: 15px 0;
+  }
+
+  .right_content .person {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
 }
 
-
-.navbar ul li {
-  display: none;
-  /* display: inline-block; */
-  margin-right: 20px;
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 }
-
-.menu .menuBtn {
-  border: none;
-  background-color: #333;
-  cursor: pointer;
-  background: transparent;
-  display: block;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width:480px) and (max-width:768px){}
-
