@@ -31,7 +31,7 @@ const Skills = () => {
             <img src={reactIcon} alt="React.js" />
           </div>
           <div className={styles.skill}>
-            <h1 className={styles.skill_title}>React-router-dom</h1>
+            <h1 className={styles.skill_title}>Redux</h1>
             <img src={redux} alt="redux" />
           </div>
           <div className={styles.skill}>

@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600&display=swap");
 
-
 .Skills_section {
-    padding: 50px 0;
-    background: rgb(254,254,254);
-    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(70,129,244,1) 100%);
+  padding: 50px 0;
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(70, 129, 244, 1) 100%
+  );
 }
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-.stitle{
+.stitle {
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
@@ -25,47 +28,45 @@
   grid-template-rows: repeat(2, 300px);
 }
 
-
-.skill{
-    text-align: center;
-    margin: 20px 0;
+.skill {
+  text-align: center;
+  margin: 20px 0;
 }
-.skill img{
-width: 150px;
-height: auto;
+.skill img {
+  width: 150px;
+  height: auto;
 }
-.skill_title{
-    font-family: "Red Hat Display";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    color: #3f3f3f;
-    margin: 20px 0;
+.skill_title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #3f3f3f;
+  margin: 20px 0;
 }
-
 
 @media only screen and (max-width: 768px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+  }
+  .skill img {
+    width: 100px;
+    height: auto;
+  }
+  .stitle {
+    font-size: 24px;
+  }
 
-  
-.skills {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows:auto;
-}
-.stitle{
-  font-size: 24px;
-}
-
-.skill_title{
-  font-family: "Red Hat Display";
+  .skill_title {
+    font-family: "Red Hat Display";
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
     line-height: 28px;
     color: #3f3f3f;
     margin: 10px 0;
-}
-
-
+  }
 }
