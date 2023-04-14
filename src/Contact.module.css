@@ -93,12 +93,20 @@
 }
 
 .social_medias a{
-  margin: 0 20px;
+  margin: 0 10px;
   text-decoration: none;
 }
 .social_medias a img{
-  width: 40px;
+  width: 55px;
+  padding: 10px;
   height: auto;
+  transition: 0.5s ease;
+  border-radius: 5px;
+}
+
+
+.social_medias a img:hover{
+  background: #fff;
 }
 
 
@@ -158,12 +166,13 @@
   font-weight: 500;
 }
 .social_medias a {
-  margin: 0px 10px;
+  margin: 0px 5px;
   text-decoration: none;
 }
 .social_medias a img {
-  width: 35px;
+  width: 55px;
   height: auto;
+  border-radius: 3px;
 }
 
 }

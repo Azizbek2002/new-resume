@@ -24,7 +24,7 @@ a {
   margin: 0 0 30px 0;
 }
 
-.navbar ul li {
+.navbar .allmenu li {
   display: inline-block;
   margin-right: 20px;
 }
@@ -35,6 +35,57 @@ a {
   font-size: 24px;
   line-height: 26px;
 }
+.openningMenu{
+  display: block;
+  background: rgb(254, 254, 254);
+  background: linear-gradient( 222deg, rgba(254, 254, 254, 1) -31%, rgba(70, 129, 244, 1) 100% );
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 10px;
+  animation: 1s 1  slidein;
+  z-index: 9;
+  padding: 10px 20px;
+  border: 1px solid #1e5edf;
+  transition: 1s ease;
+  overflow: hidden;
+}
+@keyframes slidein{
+  0%{
+    height: 0;
+  }
+  100%{
+  height: 180px; 
+  }
+}
+
+.closeD{
+  background: rgb(254, 254, 254);
+  background: linear-gradient( 222deg, rgba(254, 254, 254, 1) -31%, rgba(70, 129, 244, 1) 100% );
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 10px;
+  z-index: 9;
+  padding: 10px 20px;
+  border: 1px solid #1e5edf;
+  overflow: hidden;
+  animation: 1s 1  slideout;
+  margin-right: 0;
+}
+@keyframes slideout{
+  0%{
+    height: 180px;
+  }
+  100%{
+  height: 0; 
+  }
+}
+
 .navBtn {
   background: transparent;
   cursor: pointer;
@@ -121,6 +172,9 @@ a {
   width: 540px;
   height: auto;
 }
+.closeBtn{
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -131,10 +185,17 @@ a {
     margin:0;
   }
 
-  .navbar ul li {
+  .navbar .allmenu {
     display: none;
-    /* display: inline-block; */
-    margin-right: 20px;
+  }
+  
+  .navbar .allmenu li{
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .navbar .allmenu li a{
+    font-size: 20px;
   }
 
   .menu .menuBtn {
@@ -162,6 +223,18 @@ a {
     width: 100%;
     height: auto;
   }
+  
+.closeBtn{
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  border: none;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
